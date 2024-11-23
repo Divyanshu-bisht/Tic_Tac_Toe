@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 7vmin;
+    position: relative;
+    color: #ffffc7;
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 255, 92);
+    animation: animate 0.5s ease-in-out 0s 4 alternate;
+}
+
+@keyframes animate {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -50px;
+    }
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    position: relative;
+    animation: animate 0.5s ease-in-out 0s 4 alternate;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box {
+    font-weight: 200;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.9);
+    font-size: 10vmin;
+    color: aliceblue;
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);    
+}
+
+#reset-btn {
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: aliceblue;
+    color: rgb(245, 46, 46);
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: aliceblue;
+    color: rgb(245, 46, 46);
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 7vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
