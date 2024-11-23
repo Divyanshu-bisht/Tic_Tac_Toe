@@ -66,6 +66,7 @@ h1 {
     color: rgb(245, 46, 46);
     border-radius: 1rem;
     border: none;
+    margin-bottom: 1vh;
 }
 
 #new-btn {
@@ -83,7 +84,7 @@ h1 {
 }
 
 .msg-container {
-    height: 100vmin;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
